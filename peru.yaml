@@ -1,0 +1,164 @@
+imports:
+  elfesteem: x/elfesteem
+  elfesteemlouis: x/elfesteem-louis
+  valgrind: x/valgrind
+  qemu: x/qemu
+  miasm: x/miasm
+  dosbox: x/dosbox
+  tinycc: x/tinycc
+  llvmlite: x/llvmlite
+  dynamorio: x/dynamorio
+  wine: x/wine
+  pyvex: x/pyvex
+  reversejoelpx: x/reverse-joelpx
+  scurvecortesi: x/scurve-cortesi
+  corkami: x/corkami
+  medusa: x/medusa
+  x64dbg: x/x64-dbg
+  bokken: x/bokken
+  cuckoo: x/cuckoo
+  cuckoomon: x/cuckoo-mon
+  pymsasid: x/pymsasid
+  pyew: x/pyew
+  pyemu: x/pyemu
+  pyemusvn: x/pyemu-svn
+  radare2: x/radare2
+  pyasm: x/pyasm
+  pypefile: x/pypefile
+  paimeisvn: x/paimei-svn
+  libemu: x/libemu
+  hexrayscodexplorer: x/xr-codexplorer
+  idascope: x/xr-idascope
+  anttweakbar: x/anttweakbar
+  binaryninja: x/binaryninja
+
+git module elfesteem:
+  url: https://github.com/commial/elfesteem.git
+  rev: 269c479f5faacf05b1709ae0610e7738f8c002d3
+
+hg module elfesteemlouis:
+  url: https://bitbucket.org/LouisG/elfesteem
+  rev: 902ca0c6b5f4d84f5f5a86e82de360c9fc18fa27
+
+svn module valgrind:
+  url: svn://svn.valgrind.org/valgrind/trunk
+  rev: "15228"
+
+git module qemu:
+  url: git://git.qemu-project.org/qemu.git
+  rev: 1eeace9c237a729d11c7acd7c0338ab4562af637
+
+git module miasm:
+  url: https://github.com/cea-sec/miasm.git
+  rev: 363a9f0e726fab0e53031de89f2b66db7558d010
+
+svn module dosbox:
+  url: svn://svn.code.sf.net/p/dosbox/code-0/dosbox/trunk
+  rev: "3914"
+
+git module tinycc:
+  url: http://repo.or.cz/tinycc.git
+  reup: release_0_9_26
+  rev: 7e7a362ee9012852494c8d9d6c3d97c93d3bab12
+
+git module llvmlite:
+  url: https://github.com/numba/llvmlite.git
+  rev: 0488ff15fe0459a1c07d2ff16c8b33d983caab0a
+
+git module dynamorio:
+  url: https://github.com/DynamoRIO/dynamorio.git
+  rev: cd15692df485b7f289081ee9fe537c8129d94569
+
+git module wine:
+  url: git://source.winehq.org/git/wine.git
+  reup: wine-1.7.42
+  rev: 758126d337e3d9b72d080ff5fc4fc8da85e85b3b
+
+git module pyvex:
+  url: https://github.com/zardus/pyvex.git
+  rev: d81bfe0ee7583d599bdd6d6c8cc091a61a42e01e
+
+git module reversejoelpx:
+  url: https://github.com/joelpx/reverse.git
+  rev: 275fde57e3be1789b8d9dcf7aaaad5ca6775928c
+
+git module scurvecortesi:
+  url: https://github.com/cortesi/scurve.git
+  rev: a59e8335c48a7cda7043fbd1b28bcae1abc9645d
+
+svn module corkami:
+  url: http://corkami.googlecode.com/svn/trunk
+  rev: "1936"
+
+git module medusa:
+  url: https://github.com/wisk/medusa.git
+  reup: dev
+  rev: 98daadd638215afa767de86740d4b5e372596c1f
+
+git module x64dbg:
+  url: https://github.com/x64dbg/x64dbg.git
+  rev: 8bc962242278159b8b19668dcf2b672a168c83a0
+
+git module bokken:
+  url: https://github.com/inguma/bokken.git
+  rev: 22d4ff43e093f02376a82ee475fe373409d4dc7f
+
+git module cuckoomon:
+  url: https://github.com/cuckoobox/cuckoomon.git
+  rev: cccba1ae19755ab5e45327a9683d230897269e41
+
+git module cuckoo:
+  url: https://github.com/cuckoobox/cuckoo.git
+  rev: 52bd92bed8aeb29abf5699a4f1128b1678916e19
+
+svn module pymsasid:
+  url: http://pymsasid.googlecode.com/svn/trunk
+  rev: "28"
+
+git module pyew:
+  url: https://github.com/joxeankoret/pyew.git
+  rev: 18ea932be1f4236407930cf2cdb2b049717c4be7
+
+git module pyemu:
+  url: https://github.com/codypierce/pyemu.git
+  rev: c8e88ba2f38527cdf15c45c27ca51aab9b518fa3
+
+svn module pyemusvn:
+  url: http://pyemu.googlecode.com/svn/trunk
+  rev: "19"
+
+git module radare2:
+  url: https://github.com/radare/radare2.git
+  rev: 967067ea9cb5f1f751bb0e9dfa244d7b26ea9064
+
+git module pyasm:
+  url: https://github.com/grant-olson/pyasm.git
+  rev: 87ac92bffba380cbb4358af2e4134a1d6a5db653
+
+svn module pypefile:
+  url: http://pefile.googlecode.com/svn/trunk
+  rev: "142"
+
+svn module paimeisvn:
+  url: http://paimei.googlecode.com/svn/trunk
+  rev: "257"
+
+git module libemu:
+  url: git://git.carnivore.it/libemu.git
+  rev: ab48695b7113db692982a1839e3d6eb9e73e90a9
+
+git module hexrayscodexplorer:
+  url: https://github.com/REhints/HexRaysCodeXplorer.git
+  rev: 552959eb1e247fd77f656682dd158b63800160a7
+
+git module idascope:
+  url: https://bitbucket.org/daniel_plohmann/simplifire.idascope.git
+  rev: fe22ad2e2aa9daa90f84cdeec8c900a7699f02c7
+
+git module anttweakbar:
+  url: git://git.code.sf.net/p/anttweakbar/code
+  rev: b716e5cdaff0fadf62feac46104c6b1459e44133
+
+git module binaryninja:
+  url: https://github.com/Vector35/binaryninja-python.git
+  rev: 20599a67ad4056b657424123e5c2d3eb56d30f7f
