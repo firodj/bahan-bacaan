@@ -42,19 +42,19 @@ hg module elfesteemlouis:
 
 svn module valgrind:
   url: svn://svn.valgrind.org/valgrind/trunk
-  rev: "15295"
+  rev: "15344"
 
 git module qemu:
   url: git://git.qemu-project.org/qemu.git
-  rev: 0915aed5842bd4dbe396b92d4f3b846ae29ad663
+  rev: 8ffe756da0481233e1bd518b2b16489f51856292
 
 git module miasm:
   url: https://github.com/cea-sec/miasm.git
-  rev: fb0e0bf0e6f2407161251ce29b9ce5eff6c5d564
+  rev: 95f6c924cbe662dff92a2644f247889d3f2e1f8f
 
 svn module dosbox:
   url: svn://svn.code.sf.net/p/dosbox/code-0/dosbox/trunk
-  rev: "3914"
+  rev: "3919"
 
 git module tinycc:
   url: http://repo.or.cz/tinycc.git
@@ -63,16 +63,16 @@ git module tinycc:
 
 git module llvmlite:
   url: https://github.com/numba/llvmlite.git
-  rev: 93a41b1243b6f3fe5b751ba842ca01794f7be6da
+  rev: f6bc9ecc6a8fe0be4596353fded55bd80a53be16
 
 git module dynamorio:
   url: https://github.com/DynamoRIO/dynamorio.git
-  rev: c6cda891b44f731ce3766643045029d3418f1c12
+  rev: 4787533993bc1bf7ee668a3eccc0439f7d2e5087
 
 git module wine:
   url: git://source.winehq.org/git/wine.git
   # reup: wine-1.7.42
-  rev: 39d71c52ef7839fe7daad97b009d029b71f691ba
+  rev: 6fe55462107b4dcc31f919296a6e5870dcc881a3
 
 git module pyvex:
   url: https://github.com/zardus/pyvex.git
@@ -80,7 +80,7 @@ git module pyvex:
 
 git module reversejoelpx:
   url: https://github.com/joelpx/reverse.git
-  rev: 75a3b70122a2ce025e6142d83a6dad26cc548b37
+  rev: 15de35297dcb95cf9d06f4b71df7cf0b551a4634
 
 git module scurvecortesi:
   url: https://github.com/cortesi/scurve.git
@@ -93,15 +93,15 @@ svn module corkami:
 git module medusa:
   url: https://github.com/wisk/medusa.git
   reup: dev
-  rev: 9d980a7ca75a77cbe805514783a53ffc6806a724
+  rev: 102d1d99dc446a21e483d7c0c09b79d841da8e1e
 
 git module x64dbg:
   url: https://github.com/x64dbg/x64dbg.git
-  rev: eb5fddaddefa5d9fe986cf7ad6edfc62c3f4f5ff
+  rev: 6f2e81816189e34b12b6b5582d3ad30e494e085b
 
 git module bokken:
   url: https://github.com/inguma/bokken.git
-  rev: bb567b0cd402d885319a4998af8f79599c172561
+  rev: 873824e9ad43d38c02de9367dc894eb485b5fed8
 
 git module cuckoomon:
   url: https://github.com/cuckoobox/cuckoomon.git
@@ -109,7 +109,7 @@ git module cuckoomon:
 
 git module cuckoo:
   url: https://github.com/cuckoobox/cuckoo.git
-  rev: 4a08883f457d3d1a1789625ce0b0aea3a556e7f2
+  rev: 15d6bba6fb7977fe98f9e8c58bf1708fc304922b
 
 svn module pymsasid:
   url: http://pymsasid.googlecode.com/svn/trunk
@@ -129,7 +129,7 @@ svn module pyemusvn:
 
 git module radare2:
   url: https://github.com/radare/radare2.git
-  rev: 37d1dce099647e4d0f3e05e57b74ce3fb27b5669
+  rev: 165ce9e408215014b50f3a1804faf4a1d4dffb0f
 
 git module pyasm:
   url: https://github.com/grant-olson/pyasm.git
