@@ -31,6 +31,10 @@ imports:
   idascope: x/xr-idascope
   anttweakbar: x/anttweakbar
   binaryninja: x/binaryninja
+  kytten: x/pyglet-kytten
+  pygletgui: x/pyglet-gui
+  minecraftboskee: x/minecraft-boskee
+  minecraft: x/minecraft
 
 git module elfesteem:
   url: https://github.com/commial/elfesteem.git
@@ -129,7 +133,7 @@ svn module pyemusvn:
 
 git module radare2:
   url: https://github.com/radare/radare2.git
-  rev: 165ce9e408215014b50f3a1804faf4a1d4dffb0f
+  rev: 230a8c0b04c4934e8bdb81cedbe871face36724e
 
 git module pyasm:
   url: https://github.com/grant-olson/pyasm.git
@@ -162,3 +166,20 @@ git module anttweakbar:
 git module binaryninja:
   url: https://github.com/Vector35/binaryninja-python.git
   rev: 20599a67ad4056b657424123e5c2d3eb56d30f7f
+
+git module kytten:
+  url: https://github.com/ClockworkLynx/kytten.git
+  rev: a220e2d3a82cfb1ff3825d68bd42720987f0e132
+
+git module pygletgui:
+  url: https://github.com/jorgecarleitao/pyglet-gui.git
+  rev: 1af34b14e818dab57da0423c3e7189d55527edae
+
+git module minecraftboskee:
+  url: https://github.com/boskee/Minecraft.git
+  rev: 4336354cdbaaa443269521f4b5d25ba76afade4c
+
+git module minecraft:
+  url: https://github.com/fogleman/Minecraft.git
+  rev: d02cd72d1ec2ee133b3fec6ac1710e22bea59365
+
